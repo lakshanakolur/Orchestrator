@@ -1,0 +1,13 @@
+accp_routes:
+- "api/v1/acts"
+- "api/v1/categories"
+
+health_check: "api/v1/_health"
+
+health_time: 1
+
+auto_scaling_req: 20
+
+auto_scaling_time: 120
+
+port_sub: "800"
