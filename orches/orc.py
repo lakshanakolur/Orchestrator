@@ -83,5 +83,4 @@ def home(path):
     return r.text, r.status_code
 
 if __name__ == "__main__":
-    print("All Hail Lord Sauron")
     subprocess.check_call(["./contup.out",str(0)])
